@@ -1,5 +1,5 @@
 {
-  "name": "three.ks.customutil",
+  "name": "three.ks.customutils",
   "main": "build/index.js",
   "version": "0.0.1",
   "license": "MIT",
