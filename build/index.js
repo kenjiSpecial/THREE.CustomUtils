@@ -28,7 +28,7 @@ function memcpy(src, srcOffset, dst, dstOffset, length) {
 }
 
 // source from https://github.com/spite/codevember-2016
-function createRenderTarget() {
+function createRenderTarget(renderer) {
 
     var type = THREE.FloatType;
     if (renderer.extensions.get('OES_texture_float_linear') === null) type = THREE.HalfFloatType;
