@@ -1,0 +1,20 @@
+{
+  "name": "swapRenderer",
+  "main": "index.js",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "custom utiliy functions for my personal project",
+  "author": {
+    "name": "Kenji Saito"
+  },
+  "devDependencies": {
+    "budo": "^9.3.0",
+    "glslify": "^6.0.1",
+    "gsap": "^1.19.0",
+    "three": "mrdoob/three.js#dev",
+    "three.fbo-helper": "^1.1.0"
+  },
+  "dependencies": {
+    "three": "mrdoob/three.js#dev"
+  }
+}
