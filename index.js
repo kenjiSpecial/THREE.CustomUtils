@@ -1,3 +1,4 @@
+let THREE = require('three');
 
 // source from https://gist.github.com/jussi-kalliokoski/3138956
 export function memcpy(src, srcOffset, dst, dstOffset, length){

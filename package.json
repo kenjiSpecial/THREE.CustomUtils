@@ -1,7 +1,7 @@
 {
   "name": "three.ks.customutils",
   "main": "build/index.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "description": "custom utiliy functions for my personal project",
   "author": {

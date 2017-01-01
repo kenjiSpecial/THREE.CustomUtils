@@ -5,6 +5,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.memcpy = memcpy;
 exports.createRenderTarget = createRenderTarget;
+var THREE = require('three');
 
 // source from https://gist.github.com/jussi-kalliokoski/3138956
 function memcpy(src, srcOffset, dst, dstOffset, length) {
