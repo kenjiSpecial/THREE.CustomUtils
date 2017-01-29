@@ -47,3 +47,5 @@ function createRenderTarget(renderer) {
 
     return rt;
 }
+
+var orthoVertShader = exports.orthoVertShader = '\n    precision highp float;\n\n    attribute vec3 position;\n    attribute vec2 uv;\n\n    uniform mat4 projectionMatrix;\n    uniform mat4 modelViewMatrix;\n\n    varying vec2 vUv;\n\n    void main(){\n        vUv = uv;\n        gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);\n    }\n';
